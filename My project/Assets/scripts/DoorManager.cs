@@ -19,14 +19,14 @@ public class DoorManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
+        
         float distance = Vector2.Distance(player.transform.position, transform.position);
 
         if(!locked && distance < 0.5f)
         {
             SceneManager.LoadScene(0);
         }
-        */
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)

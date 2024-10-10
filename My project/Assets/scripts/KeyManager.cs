@@ -21,7 +21,7 @@ public class KeyManager : MonoBehaviour
     {
         if (isPickedUp)
         {
-            Vector3 offset = new Vector3(0, 1, 0);
+            Vector3 offset = new Vector3(0, 0.5f, 0);
             transform.position = Vector2.SmoothDamp(transform.position, player.transform.position + offset, ref velocity, SmoothTime);
         }
     }
